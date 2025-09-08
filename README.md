@@ -64,6 +64,8 @@ Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket k
 
 ![](/img/10.jpg)
 
+![](/img/11.jpg)
+
 ---
 ## Tipp
 ---
