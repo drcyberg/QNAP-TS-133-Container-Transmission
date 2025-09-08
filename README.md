@@ -24,22 +24,22 @@ Ez a leírás segítséget fog nyújtani abban, hogy hogyan tudjuk könnyedén b
 ![](/img/2.jpg)
 
 Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket kell megadni:
-- **Nyilvántartás:** Docker Hub
-- **Kép:** linuxserver/transmission
-(Ha konkrét verziót szeretnénk kiválasztani akkor az így tehető meg: linuxserver/transmission:4.0.6)
+- Nyilvántartás: **Docker Hub**
+- Kép: **linuxserver/transmission**
+(Ha konkrét verziót szeretnénk kiválasztani akkor az így tehető meg: **linuxserver/transmission:4.0.6**)
 - [x] Próbálja meg lehívni a képet a nyilvántartásból a konténer létrehozása előtt
 
 ![](/img/3.jpg)
 
 - [x] Az újraindítási házirend csak hiba esetén induljon újra maximum 3x
-- Majd kattintsunk a speciális beállítások menüpontra
+- Majd kattintsunk a **speciális beállítások** menüpontra
 
 ![](/img/4.jpg)
 
-- **Hálózati mód:** Bridge
+- Hálózati mód: **Bridge**
 (NAT beállítás mellett további routing beállítás szükséges)
 - A hálózati beállításoknál ha nincs DHCP szerver üzemeltetve a hálózatunkban akkor állítsuk be a statikus IP-cím használata alatti részt.
-- **DNS-szerverbeállítások konfigurálása:** Opcionális
+- DNS-szerverbeállítások konfigurálása: **Opcionális**
 
 ![](/img/5.jpg)
 
