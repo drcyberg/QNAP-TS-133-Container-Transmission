@@ -57,7 +57,14 @@ Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket k
 ![](/img/8.jpg)
 
 - A `/config/settings/settings.json` fájl szerkesztése közvetlenül a **Text Editor** alkalmazással lehetséges.
+- **Paraméterek:** [settings.json](https://trac.transmissionbt.com/wiki/MovedToGitHub/EditConfigFiles)
 
 ![](/img/9.jpg)
 
 ![](/img/10.jpg)
+
+## Tipp
+
+**Jelszó:**
+- A jelszavak feldolgozása mindig SHA1 kriptográfiával történik. A jelszót plain text formában (`"Jelszo"`) és közvetlen SHA1 formátumként (`"{01baa84e8e80cb590b41765389e2f2c1a4c176cf"`) is meg lehet adni a kapcsos zárójel után.
+- Online Tools: [LINK](https://timestampgenerator.com/generate-hash/sha1)
