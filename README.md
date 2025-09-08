@@ -1,12 +1,14 @@
-# Gondolat
+---
+## Gondolat
+---
 
 Nem rég vettem egy olcsó de jó minőségű **[QNAP TS-133](https://www.qnap.com/hu-hu/product/ts-133)** NAS eszközt, amit fotók archiválására (**Qimage**), filmek és sorozatok nézéshez (**Plex**), valamint torrent fájlmegosztásra szeretném használni. Sajnos mint ahogy több fórumon is írják és ahogy Én is tapasztaltam, a **Download Station** program nem bizonyul megbízhatónak, visszatöltési problémák vannak.
 Szerencsére a QNAP OS (**QTS**) támogatja a konténerek futtatását a **Container Station** program segítségével, így könnyedén letudjuk váltani a **[Transmission](https://hub.docker.com/r/linuxserver/transmission)** alkalmazásra.
 Ez a leírás segítséget fog nyújtani abban, hogy hogyan tudjuk könnyedén beállítani és mik azok a lépések, amikkel betudjuk könnyedén konfigurálni.
 
 ---
-
 ## Előkészület
+---
 
 - Töltsük le és telepítsük az alábbi alkalmazásokat az **App Centeren** belül:
 - [x] **Container Station**
@@ -15,8 +17,8 @@ Ez a leírás segítséget fog nyújtani abban, hogy hogyan tudjuk könnyedén b
 ![](/img/1.jpg)
 
 ---
-
 ## Konténer és a Transmission alkalmazás beállítása
+---
 
 - Nyissuk meg a **Container Station** alkalmazást, majd hozzuk létre a Transmission konténert a konténerek menüpont alatt.
 
@@ -63,7 +65,9 @@ Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket k
 
 ![](/img/10.jpg)
 
+---
 ## Tipp
+---
 
 **Jelszó:**
 - A jelszavak feldolgozása mindig SHA1 kriptográfiával történik. A jelszót plain text formában (`"Jelszo"`) és közvetlen SHA1 formátumként (`"{01baa84e8e80cb590b41765389e2f2c1a4c176cf"`) is meg lehet adni a kapcsos zárójel után.
