@@ -58,7 +58,7 @@ Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket k
 ![](/img/8.jpg)
 
 - A `/config/settings/settings.json` fájl szerkesztése közvetlenül a **Text Editor** alkalmazással lehetséges.
-- **Paraméterek:** [settings.json](https://trac.transmissionbt.com/wiki/MovedToGitHub/EditConfigFiles)
+- **Transmission paraméterek:** [settings.json](https://trac.transmissionbt.com/wiki/MovedToGitHub/EditConfigFiles)
 
 ![](/img/9.jpg)
 
