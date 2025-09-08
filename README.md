@@ -1,5 +1,5 @@
 ---
-## Gondolat
+## QNAP TS-133 NAS - Konténer kezelés - Transmission
 ---
 
 Nem rég vettem egy olcsó de jó minőségű **[QNAP TS-133](https://www.qnap.com/hu-hu/product/ts-133)** NAS eszközt, amit fotók archiválására (**Qimage**), filmek és sorozatok nézéshez (**Plex**), valamint torrent fájlmegosztásra szeretném használni. Sajnos mint ahogy több fórumon is írják és ahogy Én is tapasztaltam, a **Download Station** program nem bizonyul megbízhatónak, visszatöltési problémák vannak.
