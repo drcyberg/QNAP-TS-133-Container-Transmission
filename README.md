@@ -75,7 +75,7 @@ Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket k
 - Online Tools: [LINK](https://timestampgenerator.com/generate-hash/sha1)
 
 ---
-### Kiegészítés #1
+## Kiegészítés #1
 ---
 
 - Egy olyan hibával szembesültem, hogy amikor a Transmission konténert vagy a rendszert újraindítod, utána nem tölti vissza a listát, hanem teljesen üres marad, a napló fájlban meg ez látható: `Permission Denied`. Megoldás az lenne, hogy további tárhelyeket kell megadni a `resume` és a `torrents` mappák részére, mert a korábban beállított `config` mappa már **RO**.
