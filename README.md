@@ -73,3 +73,11 @@ Ekkor egy varázsló fog minket végigvezetni és a következő paramétereket k
 **Jelszó:**
 - A jelszavak feldolgozása mindig SHA1 kriptográfiával történik. A jelszót plain text formában (`"Jelszo"`) és közvetlen SHA1 formában (`"{01baa84e8e80cb590b41765389e2f2c1a4c176cf"`) is meg lehet adni a kapcsos zárójel után a `/config/settings/settings.json` konfigurációs fájlban.
 - Online Tools: [LINK](https://timestampgenerator.com/generate-hash/sha1)
+
+---
+### Kiegészítés #1
+---
+
+- Egy olyan hibával szembesültem, hogy amikor a Transmission konténert vagy a rendszert újraindítod, utána nem tölti vissza a listát, hanem teljesen üres marad, a napló fájlban meg ez látható: `Permission Denied`. Megoldás az lenne, hogy további tárhelyeket kell megadni a `resume` és a `torrents` mappák részére, mert a korábban beállított `config` mappa már **RO**.
+
+![](/img/12.jpg)
